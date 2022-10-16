@@ -1,4 +1,4 @@
-pragma solidity 0.8.0;
+pragma solidity ^0.8.9;
 
 contract EthPriceOracleInterface {
   function getLatestEthPrice() public returns (uint256);
